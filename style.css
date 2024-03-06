@@ -5,13 +5,34 @@
 --botao-ativo:#3A375E;
 --botao-inativo:rgba(58, 55, 94, 0.5);
 --texto-fundo:rgba(58, 55, 94, 0.3);
+
 }
 
 body{
+
 background-color: var(--cor-de-fundo);
 color:var(--branco);
 font-family: 'chakra petch',sans-serif;
+
 }
+ .conteudo-pricipal{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items:center;
+     max-width: 1200px;
+    width: 100%;
+    margin:  0 auto;
 
+ }
 
+  .titulo.principal{
+    text-align: left;
+    font-size: 32px;
+
+  }
+  .titulo.principal span{
+
+    color: var(--verde);
+  }
 
