@@ -99,6 +99,7 @@ body {
 aba-conteudo-titulo-secundario{
     text-align: center;/*a linha o texto ao centro*/
     color: var(--verde);/*cor do texto*/
+    text-transform: uppercase;/*deixa o texto em maiúsculo*/
 
 }
 
