@@ -1,5 +1,5 @@
 const botoes=document.querySelectorAll(".botao");// variavel que armazena todos os itens com a classe botão 
-
+const botoes=document.querySelectorAll(".aba-conteudo")//variavel que armazena todos os itens com a classe aba conteudo
 
 for(let i = 0; i <botoes.length; i++) {// lopp que executa enquanto j<quantidade de botoes
 
@@ -9,6 +9,7 @@ for(let i = 0; i <botoes.length; i++) {// lopp que executa enquanto j<quantidade
             botoes[j].classList.remove("ativo"); //remove a palavra da classe.
         }
         botoes[i].classList.add("ativo");//adicina a palavra ativo da classe.
+        textos[i].classList.add("ativo");//adicina a palavra ativo da classe.
     }
     console.log();
 }
